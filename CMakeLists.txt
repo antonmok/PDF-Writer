@@ -1,4 +1,6 @@
 project(PDFHUMMUS)
+# Enable C++11
+set (CMAKE_CXX_STANDARD 11)
 cmake_minimum_required (VERSION 2.6)
 
 set(USE_BUNDLED TRUE CACHE BOOL "Whether to use bundled libraries")

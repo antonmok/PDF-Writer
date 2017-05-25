@@ -133,6 +133,7 @@ EStatusCode PDFParser::StartPDFParsing(IByteReaderWithPosition* inSourceStream, 
 			// and the may not be accessed
 			mPagesCount = 0;
 			mPagesObjectIDs = NULL;
+			status = PDFHummus::eUnsuportedEncMethod;
 		}
 		else
 		{

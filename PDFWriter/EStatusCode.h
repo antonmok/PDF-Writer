@@ -25,6 +25,7 @@ namespace PDFHummus
 	enum EStatusCode
 	{
 		eFailure = -1,
-		eSuccess = 0
+		eSuccess = 0,
+		eUnsuportedEncMethod = 1,
 	};
 }
